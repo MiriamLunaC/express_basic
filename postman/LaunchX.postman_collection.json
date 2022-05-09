@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "9e877f02-03c4-4a6b-a5bf-265b8413c0f4",
+		"name": "LaunchX",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "express_basic",
+			"item": [
+				{
+					"name": "Hello World",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "launchx",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/launchx",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"launchx"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "explorersInNode",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/explorersInNode",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"explorersInNode"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "query params",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/explorers/Miriam",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"explorers",
+								"Miriam"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
